@@ -35,7 +35,7 @@ const Resume = () => {
         <br />
         <div className="flex flex-row pt-10">
           <div className="w-1/4">
-            <code className="text-yellow_vs">Work</code>
+            <code className="text-yellow_vs">My Work</code>
           </div>
           <div className="w-3/4">
             <a href="https://github.com/Riuqlav/Trebuche">
@@ -85,7 +85,7 @@ const Resume = () => {
           <div className="w-1/4"></div>
           <div className="w-3/4">
             <a href="https://github.com/Riuqlav/Jankenpon">
-              <code className="text-blue_vs">Jankenpon Challenge Game</code>
+              <code className="text-blue_vs">Save Your Job Challenge Game</code>
               <br />
               <code className="italic text-sm text-lightblue_vs">
                 The Odin Project
