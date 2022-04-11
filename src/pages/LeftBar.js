@@ -13,35 +13,35 @@ const LeftBar = () => {
 
   const WebList = () => (
     <div>
-      <a href="https://github.com/Riuqlav/Jankenpon">
+      <a href="https://github.com/Riuqlav/trebuche">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
             src={JSIcon}
             alt="JS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>First Project</p>
+          <p>Trebuché E-shop</p>
         </div>
       </a>
 
-      <a href="https://github.com/Riuqlav/React-Meetups">
+      <a href="https://github.com/Riuqlav/bar-crawl-meetup">
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
           <img
             src={JSIcon}
             alt="JS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>Second Project</p>
+          <p>Bar Crawl Meetups</p>
         </div>
       </a>
-      <a href="https://github.com/Riuqlav/React-E-Shop">
+      <a href="https://github.com/Riuqlav/save-your-job">
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
           <img
             src={JSIcon}
             alt="JS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>Third Project</p>
+          <p>Save your Job Game</p>
         </div>
       </a>
     </div>
@@ -80,7 +80,7 @@ const LeftBar = () => {
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">
           <div className="flex px-6 space-x-7">
-            <a href="/">
+            <a href="https://github.com/Riuqlav/">
               <img
                 src={GitLogo}
                 alt="Git Logo"
@@ -88,7 +88,7 @@ const LeftBar = () => {
               />
             </a>
 
-            <a href="/">
+            <a href="https://www.facebook.com/valquirs">
               <img
                 src={FacebookLogo}
                 alt="Facebook Logo"
@@ -96,14 +96,14 @@ const LeftBar = () => {
               />
             </a>
 
-            <a href="/">
+            <a href="https://www.linkedin.com/in/valquirs/">
               <img
                 src={LinkedinLogo}
                 alt="Linkedin Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href=" mailto:valquirsolza.vs@gmail.com ">
               <img
                 src={MailLogo}
                 alt="Mail Logo"
