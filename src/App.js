@@ -1,16 +1,13 @@
-import { BrowserRouter,Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route exact path="/" element={<Home/>}>
-        </Route>
-      </Routes>  
+        <Route exact path="/" element={<Home />}></Route>
+      </Routes>
     </BrowserRouter>
-
   );
 }
 
