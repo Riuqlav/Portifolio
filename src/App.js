@@ -3,9 +3,11 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ""}>
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
+        {/* <Route exact path="/" element={<Home />}></Route> */}
+        <Route exact path="/" component={Home} />
       </Routes>
     </BrowserRouter>
   );
