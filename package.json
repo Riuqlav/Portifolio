@@ -2,7 +2,7 @@
   "name": "Portifolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://riuqlav.github.io/Portifolio",
+  "homepage": "https://riuqlav.github.io/portifolio",
   "dependencies": {
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.5",
